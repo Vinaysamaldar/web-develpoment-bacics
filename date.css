@@ -1,0 +1,31 @@
+#one{
+    font-style: inherit;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+#two{
+    color: blanchedalmond;
+    background-color:chocolate;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-underline-position: below;
+    text-underline-offset: below;
+}
+#three{
+    color: blue;
+    font-size: medium;
+    font-style: italic;
+    background-color: brown;
+
+
+
+}
+#four{
+
+    color: white;
+    font-size: small;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkolivegreen;
+    box-sizing: content-box;
+}

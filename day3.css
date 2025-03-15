@@ -1,0 +1,72 @@
+body{
+      
+     background-image: url(burg.jpg);
+     font-family: Arial,  sans-serif;
+     background-repeat: no-repeat;
+     margin: 10px;
+     padding: 10px;
+     background-size: cover;
+     background-attachment: fixed;
+     /* display: flex; */
+}
+h1{
+    text-align: left;
+    color: blanchedalmond;
+    font-size: small;
+
+}
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    /* text-shadow: 2px 2px 4px green; */
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+}
+h1{
+    text-decoration: solid;
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    list-style-type: none;
+    margin: 20px;
+    padding: 30px;
+
+}
+button.b{
+    background-color: green;   
+    color: rgb(12, 10, 12);
+    text-align: center;
+    gap: 20px;
+    width: 20%;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    
+
+}
+button.a{
+    background-color: white;
+    color: rgb(12, 10, 20);
+    padding: 5px;
+    margin: 50px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    margin: 60px;
+    gap: 50px;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+
+}

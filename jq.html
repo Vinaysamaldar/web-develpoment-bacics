@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st jQuery File</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $("#colorBtn").click(function(){
+                $("#box").css("background-color", "green");
+            });
+
+            $("#hidebtn").click(function(){
+                $("#mytext").hide();
+            });
+
+            $("#showbtn").click(function(){
+                $("#mytext").slideToggle();
+            });
+
+            $("#toggle").click(function(){
+                $("#Toggledtext").slideToggle();
+            });
+
+            $("#fadein").click(function(){
+                $("#faidin").fadeIn(1000); // Corrected method name and target
+            });
+
+            $("#fadeout").click(function(){
+                $("#faidin").fadeOut(1000); // Corrected method name and target
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="box" style="width: 100px; height: 100px; background-color: red;"></div>
+    <button id="colorBtn">Change Color</button>
+    <hr><br>
+
+    <p id="mytext">This paragraph can be shown or hidden.</p>
+    <button id="hidebtn">Hide</button>
+    <button id="showbtn">Show</button>
+    <hr><br>
+
+    <p id="Toggledtext">This paragraph can be toggled.</p>
+    <button id="toggle">Toggle</button>
+    <hr><br>
+
+    <div id="faidin" style="width: 100px; height: 100px; background-color: rgb(0, 153, 255); display: none;"></div>
+    <button id="fadein">Fade In</button>
+    <button id="fadeout">Fade Out</button>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+h1{
+    color: black;
+    background-color: red;
+    border-radius: 10%;
+}
+body{
+    background-color: black;
+    motion: 0;
+}
